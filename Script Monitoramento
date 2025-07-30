@@ -10,7 +10,7 @@ if [ "$STATUS" -ne 200 ]; then
   curl -H "Content-Type: application/json" \
        -X POST \
        -d "{\"content\": \"🚨 Site fora do ar! Código: $STATUS em $DATA\"}" \
-       https://discord.com/api/webhooks/1399867207936245800/df54wGfCZDvvdoy4p-1IVROcOd8nsZcxuvpHtJrIauDUx8Zg88DsWyoV-yFkvwf66eV7
+       https://discord.com/api/webhooks/XXXXXXXXXXXXXXXX
 else
   echo "$DATA - Site ONLINE - Código $STATUS" >> $LOG
 fi
