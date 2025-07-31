@@ -1,3 +1,7 @@
-## Alerta do Discord funcionando
+## Teste de Monitoramento e Notificação
 
-![Alerta do Discord](print/discord-alert.png)
+Para verificar se o script de monitoramento está funcionando corretamente, realizamos a seguinte simulação:
+
+- Paramos o serviço NGINX manualmente com:
+```bash
+sudo systemctl stop nginx
