@@ -1,10 +1,19 @@
-# Projeto: Infraestrutura Web com Monitoramento na AWS
+# Monitoramento AWS com NGINX e Discord
 
-## Objetivo
+## Descrição
+Projeto de infraestrutura web na AWS com servidor NGINX e monitoramento automatizado via webhook do Discord.
 
-Este projeto tem como finalidade a criação de uma infraestrutura em nuvem utilizando a AWS. O ambiente foi configurado para hospedar uma aplicação web simples e realizar o monitoramento automatizado da sua disponibilidade. O objetivo é garantir que o serviço esteja disponível continuamente e que falhas sejam detectadas e notificadas.
+## Tecnologias utilizadas
+- AWS EC2
+- Ubuntu Linux
+- NGINX
+- Bash Script
+- Discord Webhook
+- Cron
+
 
 ## Etapas do Projeto
+
 
 ### 1. Configuração da Infraestrutura de Rede (VPC)
 
