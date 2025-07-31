@@ -5,3 +5,6 @@ Para verificar se o script de monitoramento está funcionando corretamente, real
 - Paramos o serviço NGINX manualmente com:
 ```bash
 sudo systemctl stop nginx
+## Resultado do Teste
+
+![Alerta do Discord](print/discord-alert.png)
