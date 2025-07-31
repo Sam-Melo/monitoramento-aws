@@ -7,4 +7,4 @@ Para verificar se o script de monitoramento está funcionando corretamente, real
 sudo systemctl stop nginx
 ## Resultado do Teste
 
-![Alerta do Discord](print/discord-alert.png)
+![Alerta do Discord](discord-alert.png)
