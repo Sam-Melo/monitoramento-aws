@@ -1,0 +1,3 @@
+sudo systemctl stop nginx
+## Alerta recebido no Discord:
+![Alerta no Discord](discord.png)
